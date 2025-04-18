@@ -69,7 +69,7 @@ source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 Install the Required Python Packages
 pip install -r requirements.txt
 
-5. Install Ollama (if not already installed)
+Install Ollama (if not already installed)
 You will need Ollama to run the Llama 3.2 model locally. Follow the installation instructions from the Ollama website.
 
 After installing Ollama, ensure it is running locally. You can check if the model is available by running:
