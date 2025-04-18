@@ -72,12 +72,11 @@ pip install -r requirements.txt
 Install Ollama (if not already installed)
 You will need Ollama to run the Llama 3.2 model locally. Follow the installation instructions from the Ollama website.
 
-After installing Ollama, ensure it is running locally. You can check if the model is available by running:
-ollama run llama3.2
+After installing Ollama, ensure it is running locally.
+You can check if the model is available by running: ollama run llama3.2
 
 Run the Application
 
-Once all dependencies are installed, you can run the interactive application by executing main.py:
 python main.py
 
 You will be prompted to enter a question related to the restaurant reviews, and the system will provide a relevant answer based on the dataset.
