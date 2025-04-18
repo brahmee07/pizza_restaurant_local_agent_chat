@@ -76,8 +76,10 @@ After installing Ollama, ensure it is running locally. You can check if the mode
 ollama run llama3.2
 
 Run the Application
+
 Once all dependencies are installed, you can run the interactive application by executing main.py:
 python main.py
+
 You will be prompted to enter a question related to the restaurant reviews, and the system will provide a relevant answer based on the dataset.
 
 📝 Usage
