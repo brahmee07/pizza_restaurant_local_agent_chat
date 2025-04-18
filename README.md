@@ -83,12 +83,15 @@ You will be prompted to enter a question related to the restaurant reviews, and 
 📝 Usage
 
 Ask Questions
+
 When you run main.py, it will prompt you to input a question (e.g., "What are the most common complaints about this restaurant?"). The system will search through the restaurant reviews dataset, retrieve relevant documents, and provide an answer using the Llama 3.2 model.
 
 Chroma Database
+
 After the first run, Chroma will create a database in the chroma_langchain_db/ folder to store the vectorized documents. This allows for faster document retrieval during subsequent runs.
 
 View Results
+
 The application will output the generated response based on the relevant restaurant reviews retrieved from the Chroma database.
 
 🔧 Troubleshooting
