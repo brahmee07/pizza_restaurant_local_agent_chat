@@ -81,6 +81,7 @@ python main.py
 You will be prompted to enter a question related to the restaurant reviews, and the system will provide a relevant answer based on the dataset.
 
 📝 Usage
+
 Ask Questions
 When you run main.py, it will prompt you to input a question (e.g., "What are the most common complaints about this restaurant?"). The system will search through the restaurant reviews dataset, retrieve relevant documents, and provide an answer using the Llama 3.2 model.
 
@@ -91,10 +92,12 @@ View Results
 The application will output the generated response based on the relevant restaurant reviews retrieved from the Chroma database.
 
 🔧 Troubleshooting
+
 If you encounter issues with Ollama or the Llama model, ensure that the correct version of Ollama is installed and that the model is running.
 
 If the chroma_langchain_db/ folder isn’t being created, double-check your Chroma and LangChain setup.
 
 🧑‍💻 Contributing
+
 This project is a self-learning initiative. However, contributions are welcome! If you have suggestions for improving the code or any questions about the setup, feel free to create an issue or submit a pull request.
 
