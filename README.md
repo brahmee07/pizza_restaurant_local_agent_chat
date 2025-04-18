@@ -31,7 +31,6 @@ Python: The core programming language used for implementing the pipeline.
 
 📁 Project Structure
 
-.
 ├── main.py                        # Entry point to run the RAG pipeline interactively
 
 ├── vector.py                      # Handles vector database creation and retrieval logic
